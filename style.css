@@ -9,13 +9,16 @@
 .box1 {
     background-color: #1f2937;
     padding: 40px;
+    display: block;
     }
 
     .header {
      color: white;
      display: flex;
-     padding: 20px;
+     padding: 10px;
      margin-bottom: 50px;
+     margin-left: 200px;
+     margin-right: 200px;
         }
 
         .header .logo {
@@ -37,25 +40,123 @@
         .info {
          color: white;
          display: flex;
-         justify-content: space-evenly;
+         margin: 120px;
+         justify-content: space-around;
         }
               .info1 {
+                
+                width: 550px;
+                height: 300px;
          
                 }
-              .info2 {
-   
-        }
+                 .tittleinfo1 {
+                    font-size: 48px;
+                    font-weight: bolder;
+                    color: #f9faf8;
+                 } 
 
+                 .descriptioninfo1 {
+                    display: flex;
+                    font-size: 18px;
+                    color:#e5e7eb;
+                 }
+
+                 button {
+                   color: #ffffff;
+                   background-color: #3882f6;
+                   width: 90px;
+                   height: 30px;
+                   align-self: baseline;
+                   
+                 }
+
+              .info2 {
+                width: 700px;
+                height: 300px;
+                background-color: gray;
+                 }
+                 .info2text {
+                    padding: 125px;
+                    text-align: center;
+
+                  }
+
+   
+        
+
+
+
+.tittlebox2 {
+    background-color: white ;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    margin: 50px;
+    margin-top: 200px;
+                }
 
 
 .box2 {
     background-color: #ffffff;
-    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
     }
+
+
+    .box2 .flexobject {
+
+        border: 5px solid #3882f6;
+        width: 200px;
+        height: 200px;
+        border-radius: 25px;
+    }
+
+ .box22 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+        }
+
+    .flexitem {
+        width: 200px;
+        height: auto;
+    }
+
+
+
 
 .box3 {
     background-color: #e5e7eb;
-    padding: 40px;
+    padding: 180px;
+    display: block;
+        }
+
+        .quote {
+            color: #1f2937;
+            font-size: 36px;
+            font-style: italic;
+            font-weight: lighter;
+            margin-right: 320px;
+            margin-left: 320px;
+
+        }
+
+        .person {
+            font-size: 30px;
+            color:#0c1016;
+            font-weight: bolder;
+            text-align: end;
+            margin-right: 320px;
+            margin-left: 320px;
+
         }
 
 .box4 {
