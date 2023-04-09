@@ -45,7 +45,7 @@
         }
               .info1 {
                 
-                width: 550px;
+                width: 500px;
                 height: 300px;
          
                 }
@@ -56,17 +56,20 @@
                  } 
 
                  .descriptioninfo1 {
-                    display: flex;
                     font-size: 18px;
                     color:#e5e7eb;
+                    margin: 20px 0 20px 0;
                  }
 
-                 button {
+                 .info1 button{
                    color: #ffffff;
                    background-color: #3882f6;
-                   width: 90px;
-                   height: 30px;
-                   align-self: baseline;
+                   font-size: 18px;
+                   width: 120px;
+                   height: 40px;
+                   text-align: center;
+                   border-radius: 5px;
+                   
                    
                  }
 
@@ -135,7 +138,8 @@
 
 .box3 {
     background-color: #e5e7eb;
-    padding: 180px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     display: block;
         }
 
@@ -162,9 +166,49 @@
 .box4 {
     background-color: #ffffff;
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 150px 250px 150px 250px;
+   
+        }
+
+        .itembox4 {
+            background-color: #3882f6;
+            border-radius: 10px;
+            width: 1500px;
+            height: 200px;
+            display: flex;
+            justify-content: space-evenly;  
+            align-items: center;
+                      /*margin: 50px 250px 50px 250px;*/
+            }
+            
+            .itembox4 .tittle4 {
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+
+             }
+
+
+            .itembox4 .info4 {
+                color: white;
+                font-size: 18px;
+            }
+
+            .box4 .itembox4 button{
+              color: #ffffff;
+              background-color: #3882f6;
+              border: solid white;
+              width: 120px;
+              height: 40px;
+              text-align: center;
+              border-radius: 5px;
         }
 
 .footer {
     background-color: #1f2937;
+    color: #ffffff;
     padding: 40px;
+    text-align: center;
         }
